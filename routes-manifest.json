@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/challenge1",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/challenge1",
-      "destination": "/challenge1/",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/challenge1$"
-    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
@@ -35,13 +27,7 @@
   ],
   "headers": [],
   "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/challenge1//_next/:path+",
-        "destination": "/challenge1/_next/:path+",
-        "regex": "^/challenge1//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
+    "beforeFiles": [],
     "afterFiles": [],
     "fallback": []
   },
