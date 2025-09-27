@@ -1,12 +1,14 @@
 {
+  "homepage": "https://01Hamza31AATTAR.github.io/challenge1",
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
-    "start": "next start"
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
